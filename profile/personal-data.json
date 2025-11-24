@@ -1,0 +1,84 @@
+{
+  "personal": {
+    "name": "DHANUSH HS",
+    "email": "dhanushhs1@outlook.com",
+    "phone": "8660833055",
+    "social": {
+      "github": "https://github.com/paperbukit",
+      "linkedin": "https://linkedin.com/in/paperbukit", 
+      "twitter": "https://twitter.com/paperbukit",
+      "instagram": "https://instagram.com/paperbukit"
+    }
+  },
+  "education": {
+    "institution": "Vidyavardhaka College of Engineering",
+    "degree": "B.E. in Computer Science (AIML)",
+    "status": "Pursuing",
+    "location": "Mysuru, Karnataka"
+  },
+  "skills": {
+    "languages": ["Python", "C++", "JavaScript"],
+    "frameworks": ["Flask", "React", "Tkinter", "Git", "LangChain"],
+    "ml_ds": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow"],
+    "other": ["Firebase", "SQLite", "HTML/CSS", "Jupyter"]
+  },
+  "experience": [
+    {
+      "title": "Python Intern",
+      "company": "CodSoft",
+      "duration": "Jul 2025 – Present",
+      "location": "Remote",
+      "responsibilities": [
+        "Built mini-projects using Python + Tkinter",
+        "Implemented logic-heavy apps and used GitHub for version control",
+        "Remote, self-paced learning with weekly deliverables"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PDF Chatbot",
+      "description": "Upload and ask questions to PDFs. Supports OCR, multi-file, and history export.",
+      "technologies": ["LangChain", "Python", "Streamlit"]
+    },
+    {
+      "name": "Elden Ring Tracker", 
+      "description": "Track game quests, items, and bosses using JSON + localStorage",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Peer Tutoring Platform",
+      "description": "Helps students match for tutoring, form groups, and share resources",
+      "technologies": ["React", "Flask", "SQLite"]
+    }
+  ],
+  "certifications": {
+    "google_cloud": [
+      "Digital Transformation with Google Cloud",
+      "Gen AI: Beyond the Chatbot", 
+      "Gen AI: Unlock Foundational Concepts",
+      "Innovating with Google Cloud Artificial Intelligence",
+      "Level 1: Application Design and Delivery (ID: 17362417)",
+      "Modernize Infrastructure and Applications",
+      "Scaling with Google Cloud Operations", 
+      "Trust and Security with Google Cloud",
+      "Exploring Data Transformation with Google Cloud",
+      "Skills Boost Arcade Trivia (Weeks 1–4, IDs: 17317448 → 17324717)"
+    ],
+    "ibm": [
+      "Python for Data Science, AI & Development (ID: KUSIR96BWBFC)"
+    ],
+    "politecnico_di_milano": [
+      "Artificial Intelligence: an Overview (ID: 3ISVPBR31GO2)"
+    ],
+    "university_of_colorado_boulder": [
+      "Biology Everywhere Foundations (ID: HKTLOKIMVUCU)"
+    ],
+    "hebrew_university": [
+      "Nand to Tetris – Build a Modern Computer (ID: IIGFV0T4459Z)"
+    ]
+  },
+  "interests": ["Anime", "Video games", "Tech content creation"],
+  "career_objective": "Aspiring AI/ML engineer passionate about solving real-world problems using machine learning and full-stack tools. Actively building projects, seeking roles to contribute meaningfully and grow technically.",
+  "last_updated": "2025-08-08"
+}

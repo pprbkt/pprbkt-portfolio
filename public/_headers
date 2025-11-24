@@ -1,0 +1,10 @@
+/pp.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/resume.pdf
+  Cache-Control: public, max-age=31536000
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,49 @@
+{
+  "workExperience": [
+    
+  ],
+  "categories": [
+    "All",
+    "Internship",
+    "Python Development",
+    "Software Development",
+    "Technology"
+  ],
+  "jobTypes": [
+    "All",
+    "Internship",
+    "Full-time",
+    "Part-time",
+    "Contract",
+    "Remote"
+  ],
+  "industries": [
+    "All",
+    "Technology",
+    "Software Development",
+    "Education",
+    "Startups"
+  ],
+  "companySizes": [
+    "All",
+    "1-10",
+    "11-50",
+    "51-200",
+    "201-500",
+    "501-1000",
+    "1000+"
+  ],
+  "settings": {
+    "autoSort": true,
+    "sortBy": "startDate",
+    "sortOrder": "desc",
+    "showCurrentFirst": true,
+    "experiencePerPage": 10,
+    "enableCategories": true,
+    "enableSearch": true,
+    "enableTypeFilter": true,
+    "enableIndustryFilter": true,
+    "showAchievements": true,
+    "showTechnologies": true
+  }
+}
