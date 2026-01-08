@@ -53,6 +53,19 @@ const config: Config = {
                 sm: "calc(var(--radius) - 4px)",
                 "4xl": "2rem",
             },
+            backgroundImage: {
+                "pearlescent": "linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 25%, rgba(210,242,77,0.05) 50%, rgba(255,255,255,0.05) 75%, rgba(255,255,255,0) 100%)",
+                "pearlescent-dark": "linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(255,255,255,0.03) 25%, rgba(210,242,77,0.03) 50%, rgba(255,255,255,0.03) 75%, rgba(0,0,0,0) 100%)",
+            },
+            animation: {
+                "holo-pan": "holoPan 3s ease infinite",
+            },
+            keyframes: {
+                holoPan: {
+                    "0%, 100%": { backgroundPosition: "0% 50%" },
+                    "50%": { backgroundPosition: "100% 50%" },
+                },
+            },
         },
     },
     plugins: [],

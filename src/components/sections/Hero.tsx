@@ -35,7 +35,7 @@ export function Hero() {
                         <span className="text-muted-foreground/30">{firstName} {lastName}</span>
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-[600px] mx-auto font-light">
+                    <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto font-light">
                         {portfolioData.hero.headline} <br />
                         Based in {portfolioData.hero.location}.
                     </p>
@@ -62,6 +62,16 @@ export function Hero() {
                         {portfolioData.hero.role} — {portfolioData.hero.name} —
                     </span>
                 </Marquee>
+            </div>
+
+            {/* Printstream Deco Elements */}
+            <div className="absolute top-24 left-10 md:left-20 text-[10px] font-mono text-muted-foreground/40 hidden md:block select-none pointer-events-none">
+                {"/// SYSTEM_READY"} <br />
+                LOC: {portfolioData.hero.location.toUpperCase()}
+            </div>
+            <div className="absolute bottom-24 right-10 md:right-20 text-[10px] font-mono text-muted-foreground/40 hidden md:block text-right select-none pointer-events-none">
+                XX_INIT_SEQ <br />
+                VER. 2.0.4
             </div>
         </section>
     );
