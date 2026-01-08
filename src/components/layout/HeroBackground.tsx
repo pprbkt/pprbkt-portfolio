@@ -8,7 +8,7 @@ import * as THREE from "three";
 
 function Stars(props: Record<string, unknown>) {
     const ref = useRef<THREE.Points>(null);
-    const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.5 }) as Float32Array);
+    const [sphere] = useState(() => random.inSphere(new Float32Array(6000), { radius: 1.5 }) as Float32Array);
 
     useFrame((state, delta) => {
         if (ref.current) {

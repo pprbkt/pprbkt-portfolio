@@ -189,7 +189,8 @@ export function KnowledgeGraph() {
                             y={node.y + 4}
                             textAnchor="middle"
                             fontSize="2"
-                            className="fill-muted-foreground font-mono uppercase tracking-wider select-none"
+                            fontWeight="bold"
+                            className="fill-neutral-800 dark:fill-neutral-100 font-mono uppercase tracking-wider select-none"
                             style={{ pointerEvents: 'none' }}
                         >
                             {node.label}
