@@ -69,6 +69,31 @@ export function Hero() {
                 {"/// SYSTEM_READY"} <br />
                 LOC: {portfolioData.hero.location.toUpperCase()}
             </div>
+
+            {/* Play Button - Top Right Easter Egg */}
+            <div className="absolute top-1/2 -translate-y-1/2 right-10 md:right-20 hidden md:block z-20">
+                <Link href="/play" aria-label="Play Hidden Game">
+                    <motion.button
+                        whileHover={{ scale: 1.2, rotate: 180 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="group relative flex items-center justify-center w-16 h-16 rounded-full bg-transparent overflow-hidden transition-all duration-500"
+                    >
+                        <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            className="relative z-10 text-muted-foreground/50 group-hover:text-accent transition-colors duration-500"
+                        >
+                            <path d="M5 3l14 9-14 9V3z" />
+                        </svg>
+                    </motion.button>
+                </Link>
+                <div className="text-[9px] font-mono text-muted-foreground/40 text-center -mt-2 opacity-0 group-hover:opacity-100 transition-opacity select-none tracking-widest">
+                    EXEC_GAME
+                </div>
+            </div>
+
             <div className="absolute bottom-24 right-10 md:right-20 text-[10px] font-mono text-muted-foreground/40 hidden md:block text-right select-none pointer-events-none">
                 XX_INIT_SEQ <br />
                 VER. 2.0.4

@@ -2,6 +2,7 @@
 
 import { portfolioData } from "@/data/portfolio";
 import { SectionReveal, RevealItem } from "@/components/ui/SectionReveal";
+import { KnowledgeGraph } from "@/components/ui/KnowledgeGraph";
 
 export function About() {
     return (
@@ -16,6 +17,8 @@ export function About() {
                         <h3 className="text-3xl md:text-5xl font-bold font-display leading-tight uppercase">
                             {portfolioData.hero.role} BASED IN INDIA, PASSIONATE ABOUT BUILDING INTELLIGENT SYSTEMS.
                         </h3>
+
+                        <KnowledgeGraph />
                     </SectionReveal>
 
                     {/* Right Column: Bio, Education, Skills, Achievements */}
